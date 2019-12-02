@@ -95,18 +95,8 @@ namespace GradeBook
 
         public string Name
         {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                if (!String.IsNullOrEmpty(value))
-                {
-                    name = value;
-                }
-            }
+            get; 
+            private set;
         }
-        private string name;
     }
 }
