@@ -15,7 +15,7 @@ namespace GradeBook
 
         public void AddLetterGrade(char letter)
         {
-            switch(letter)
+            switch (letter)
             {
                 case 'A':
                     AddGrade(90);
@@ -46,7 +46,7 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine("Invalid Value");
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
 
@@ -66,7 +66,7 @@ namespace GradeBook
 
             result.Average /= grades.Count;
 
-            switch(result.Average)
+            switch (result.Average)
             {
                 case var d when d >= 90.0:
                     result.Letter = 'A';
