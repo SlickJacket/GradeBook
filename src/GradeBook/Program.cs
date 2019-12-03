@@ -8,6 +8,7 @@ namespace GradeBook
         {
 
             var book = new Book("Bobby's Grade Book");
+            book.GradeAdded += OnGradeAdded;
 
             while (true)
             {
@@ -55,6 +56,11 @@ namespace GradeBook
             // initializings a list
             // var grades = new List<double>() { 24.2, 12.1, 21.3, 14.1 };
             // grades.Add(34.5);
+        }
+
+        static void OnGradeAdded(object sender, EventArgs e)
+        {
+            Console.WriteLine("A grade was added");
         }
     }
 }
