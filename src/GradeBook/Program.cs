@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace GradeBook
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+            var book = new Book();
+            book.AddGrade(44.5);
+
             var x = 43.2;
             var y = 47.6;
             var added = x + y;
@@ -18,22 +23,14 @@ namespace GradeBook
             grades.Add(34.5);
             var result = 0.0;
 
-            foreach(var num in grades){
+            foreach (var num in grades)
+            {
                 result += num;
             }
 
             var average = result / grades.Count;
-            System.Console.WriteLine(result);
-            System.Console.WriteLine(average);
-
-            if (args.Length > 0)
-            {
-                Console.WriteLine($"Hello {args[0]}! You have {added} apples.");
-            }
-            else
-            {
-                Console.WriteLine("Goodbye");
-            }
+            Console.WriteLine($"The added result is {result:N2}");
+            Console.WriteLine($"The average is {average}");
         }
     }
 }
