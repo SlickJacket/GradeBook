@@ -1,0 +1,12 @@
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.deps.json
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.runtimeconfig.json
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.runtimeconfig.dev.json
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.dll
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.pdb
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.csprojAssemblyReference.cache
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.csproj.CoreCompileInputs.cache
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.AssemblyInfoInputs.cache
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.AssemblyInfo.cs
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.dll
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.pdb
+/Users/flatironaccesslabs/Development/Practice/C#/Grade_Book/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.genruntimeconfig.cache
