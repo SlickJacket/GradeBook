@@ -9,28 +9,18 @@ namespace GradeBook
         static void Main(string[] args)
         {
 
-            var book = new Book();
+            var book = new Book("Bobby's Grade Book");
             book.AddGrade(44.5);
-
-            var x = 43.2;
-            var y = 47.6;
-            var added = x + y;
+            book.AddGrade(89.4);
+            book.AddGrade(99.4);
+            book.showStatistics();
 
             // initializing an array
-            var numbers = new[] { 24.2, 12.1, 21.3, 14.1 };
+            // var numbers = new[] { 24.2, 12.1, 21.3, 14.1 };
+
             // initializings a list
-            var grades = new List<double>() { 24.2, 12.1, 21.3, 14.1 };
-            grades.Add(34.5);
-            var result = 0.0;
-
-            foreach (var num in grades)
-            {
-                result += num;
-            }
-
-            var average = result / grades.Count;
-            Console.WriteLine($"The added result is {result:N2}");
-            Console.WriteLine($"The average is {average}");
+            // var grades = new List<double>() { 24.2, 12.1, 21.3, 14.1 };
+            // grades.Add(34.5);
         }
     }
 }
