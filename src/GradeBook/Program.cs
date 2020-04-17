@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 
 namespace GradeBook
 {
@@ -13,7 +11,13 @@ namespace GradeBook
             book.AddGrade(44.5);
             book.AddGrade(89.4);
             book.AddGrade(99.4);
-            book.showStatistics();
+
+            var stats =book.GetStatistics();
+
+            // Console.WriteLine($"The added result is {result.Average:N2}");
+            Console.WriteLine($"The average is {stats.Average:N2}");
+            Console.WriteLine($"The highest grade is {stats.High}");
+            Console.WriteLine($"The lowest grade is {stats.Low}");
 
             // initializing an array
             // var numbers = new[] { 24.2, 12.1, 21.3, 14.1 };
